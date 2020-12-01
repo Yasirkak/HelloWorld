@@ -55,6 +55,64 @@ button: hover {
 }
 
 
+a:link {
+  text-decoration: none;
+  color: #4d8f85;
+}
+
+
+
+.arrow {
+  border: solid #4d8f85;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+img {
+  height: 30%;
+  border-radius: 5px 5px 0 0;
+}
+
+.row {
+  text-align: center;
+  margin: auto;
+}
+
+.month {
+  font-size: 20px;
+  margin: 30px;
+  text-align: center;
+  color: #4d8f85;
+}
+
+
+.col-md-3 {
+  text-align: center;
+  padding: 25px;
+}
+
+
+.col-md-4 {
+  text-align: center;
+}
+
+
+.caption {
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+}
 
 
 
