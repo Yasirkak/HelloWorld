@@ -1,64 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Website's name</title>
-	<meta charset="UTF-8">
-	<meta charset="utf-8">
-	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-	<!-- För CEO -->
-	<meta content="" name="description">
-	<meta content="" name="author">
-	<meta content="" name="keywords">
-	<link href="style.css" rel="stylesheet">
-	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-</head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Login page</title>
 
-<body>
-	<div class="content">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
 
-  <div class="imgcontainer">
-  	    <img src="img/avatar.jpg" alt="Avatar" class="avatar">
-  </div>
+  <body>
 
-  <div class="inlogning">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="name" required>
+    <div class="container">
+      <div class="row content">
+        <div class="col-md-6 mb-3">
+          <img src="img/logo.jpg" class="img-fluid" alt="image">
+        </div>
+        <div class="col-md-6">
+          <h3 class="login-text mb-3">Log in</h3>
+          <form>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" name="email" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" name="password" class="form-control">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" name="checkbox" class="form-check-input" id="checkbox">
+              <label clas="form-check-label" for="checkbox">Remember Me</label>
+            </div>
+            <a href="huvudsida.html">
+              <button class="btn btn-class">Login</button>
+            </a>
+          </div>
+        </div>
+      </div>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-        
-    <a href="huvudsida.html">
-    <button type="submit">Login</button>
-</a>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-  </div>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
-  <div class="cancellation">
-    <!-- <button type="button" class="cancelbtn">Cancel</button> -->
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-</body>
-
-
-
-</html>
-
-
-
-</html>
+    </body>
+    </html>
