@@ -1,8 +1,6 @@
 body{
-	background-image: url('../img/tavla.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-  background-attachment: fixed;
+	margin: auto; 
+  background-color: #E6F4EA;
 
 
 }
@@ -61,8 +59,7 @@ body{
 }
 
 .post p{
-  margin-top: 0;
-  color: white; 
+  margin-top: 0; 
   margin-left right: auto; 
 }
 
