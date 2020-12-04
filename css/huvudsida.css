@@ -58,6 +58,10 @@ body{
   	padding: 16px;
 }
 
+section{
+  min-width: fit-content;
+}
+
 .post p{ 
   margin-left:20%; 
   margin-right: 20%;
