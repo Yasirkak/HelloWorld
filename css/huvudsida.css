@@ -58,9 +58,14 @@ body{
   	padding: 16px;
 }
 
-.post p{
-  margin-top: 0; 
-  margin-left right: auto; 
+section{
+  min-width: fit-content;
+}
+
+.post p{ 
+  margin-left:20%; 
+  margin-right: 20%;
+  background-color: #A3C2BD;
 }
 
 .post{
@@ -70,6 +75,10 @@ body{
   text-align: center;
 }
 
+footer{
+  background-color: #f8f9fa;
+
+}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
