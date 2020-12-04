@@ -148,10 +148,12 @@ a:link {
   }
   
   
-  img {
+  .thumbnail img{
 	height: 30%;
-	border-radius: 5px 5px 0 0;
+	/*border-radius: 5px 5px 0 0;*/
   }
+
+
   
   
   .row {
@@ -171,17 +173,45 @@ a:link {
   .col-md-3 {
 	text-align: center;
 	padding: 25px;
+
   }
   
   
   .col-md-4 {
 	text-align: center;
+	font-size: 18px;
+  }
+
+
+  #december {
+	  text-align: left;
+	  padding-left: 10%;
+  }
+
+
+  #oktober {
+	  text-align: right;
+	  padding-right: 10%;
+  }
+
+  .col-md-12 {
+	text-align: left;
+	margin-left: 10px;
+	color: #4d8f85;
+	font-size: 14px;
+	font-weight: bold;
   }
   
   
   .caption {
 	background-color: white;
-	border-radius: 0 0 5px 5px;
+	border-radius: 0 0 10px 10px;
+	font-size: 12px;
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 1px;
+	padding-top: 10px;
   }
 
 
