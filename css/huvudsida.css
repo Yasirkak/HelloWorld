@@ -2,7 +2,6 @@ body{
 	margin: auto; 
   background-color: #E6F4EA;
 
-
 }
 
 .menyTop{
@@ -58,27 +57,33 @@ body{
   	padding: 16px;
 }
 
-section{
-  min-width: fit-content;
-}
-
 .post p{ 
   margin-left:20%; 
   margin-right: 20%;
   background-color: #A3C2BD;
 }
 
+section{
+  min-width: fit-content;
+}
+
 .post{
-  margin-top: 10%;
-  margin-bottom: 0;
+ /* border: solid black 1px;*/
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 10%;
   display: block;
   text-align: center;
+  
+  
 }
 
-footer{
-  background-color: #f8f9fa;
-
+.resize{
+  object-fit: contain;
+  width: 600px;
+  height: 400px;
 }
+
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
