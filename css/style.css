@@ -122,13 +122,20 @@ section{
   min-width: fit-content;
 }
 
+.klasser{
+	font-size: 24px;
+	color: #4d8f85;
+
+}
+
 .post{
  /* border: solid black 1px;*/
   position: relative;
   margin-top: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   display: block;
   text-align: center;
+
   
   
 }
@@ -139,6 +146,11 @@ section{
   height: 400px;
 }
 
+.resize2{
+  object-fit: contain;
+  width: 600px;
+  height: 300px;
+}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
