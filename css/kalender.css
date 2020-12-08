@@ -1,12 +1,15 @@
 .content {
-  max-width: 500px;
-  margin: auto;
-  background: white;
-  padding: 10px;
+  margin: 8%;
+  background-color: #fff;
+  padding:4rem 1rem 4rem 1rem;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, .05);
 }
 
-body {margin: auto; 
-	background-color: #E6F4EA;}
+body {
+  margin: auto; 
+  font-family: 'Poppins', sans-serif;
+  background-color: #E6F4EA;
+}
 	
 
 .imgcontainer {
@@ -14,7 +17,8 @@ body {margin: auto;
   margin: 24px 0 12px 0;
 }
 
-img.avatar {  width: 20%;
+img.avatar {
+  width: 20%;
   border-radius: 50%;
   margin: auto;
   }
@@ -60,7 +64,6 @@ a:link {
   text-decoration: none;
   color: #4d8f85;
 }
-
 
 
 .arrow {
@@ -115,7 +118,7 @@ img {
   border-radius: 0 0 5px 5px;
 }
 
-article, aside, figcaption, figure, footer, hgroup, main, nav, section {
+article, aside, figcaption, figure, footer, hgroup, main, section {
     display: block;
     margin-left: 40px;
     margin-right: 40px;
