@@ -380,7 +380,20 @@ span.psw {
 
 /*media screen*/
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 767px) {
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
+
+	#december {
+		text-align: center;
+		padding-left: 0;
+		padding-bottom: 20px;
+	}
+  
+  
+	#oktober {
+		text-align: center;
+		padding-right: 0;
+		padding-top: 20px;
+	}
   }
