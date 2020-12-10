@@ -55,65 +55,61 @@ body {
 /*img gallery*/
 
 a:link {
-	text-decoration: none;
-	color: #4d8f85;
-  }
+		text-decoration: none;
+		color: #4d8f85;
+	}
   
   
   .arrow {
-	border: solid #4d8f85;
-	border-width: 0 3px 3px 0;
-	display: inline-block;
-	padding: 5px;
-  
-  }
+		border: solid #4d8f85;
+		border-width: 0 3px 3px 0;
+		display: inline-block;
+		padding: 5px;
+	}
   
   
   .right {
-	transform: rotate(-45deg);
-	-webkit-transform: rotate(-45deg);
-  }
+		transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+	}
   
   
   .left {
-	transform: rotate(135deg);
-	-webkit-transform: rotate(135deg);
-  }
+		transform: rotate(135deg);
+		-webkit-transform: rotate(135deg);
+	}
   
   
   .thumbnail img{
-	height: 30%;
-	/*border-radius: 5px 5px 0 0;*/
-  }
+		height: 30%;
+		/*border-radius: 5px 5px 0 0;*/
+	}
 
 
-  
-  
   .row {
-	text-align: center;
-	margin: auto;
-  }
+		text-align: center;
+		margin: auto;
+	}
   
   
   .month {
-	font-size: 20px;
-	margin: 30px;
-	text-align: center;
-	color: #4d8f85;
-  }
+		font-size: 20px;
+		margin: 30px;
+		text-align: center;
+		color: #4d8f85;
+	}
   
   
   .col-md-3 {
-	text-align: center;
-	padding: 25px;
-
-  }
+		text-align: center;
+		padding: 25px;
+	}
   
   
   .col-md-4 {
-	text-align: center;
-	font-size: 18px;
-  }
+		text-align: center;
+		font-size: 18px;
+	}
 
 
   #december {
@@ -127,32 +123,34 @@ a:link {
 	  padding-right: 10%;
   }
 
+
   .col-md-12 {
-	text-align: left;
-	margin-left: 10px;
-	color: #4d8f85;
-	font-size: 14px;
-	font-weight: bold;
-  }
+		text-align: left;
+		margin-left: 10px;
+		color: #4d8f85;
+		font-size: 14px;
+		font-weight: bold;
+	}
   
   
   .caption {
-	background-color: white;
-	border-radius: 0 0 10px 10px;
-	font-size: 12px;
-	text-align: left;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 1px;
-	padding-top: 10px;
-  }
+		background-color: white;
+		border-radius: 0 0 10px 10px;
+		font-size: 12px;
+		text-align: left;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 1px;
+		padding-top: 10px;
+	}
+
+
 /*main page*/
 
 body{
 	margin: auto; 
-  background-color: #E6F4EA;
-
-}
+	background-color: #E6F4EA;
+	}
 
 .menyTop{
 	position: fixed;
@@ -162,42 +160,42 @@ body{
 	width: 100%;
 	background-color: black;
 	color: white;
-  margin-bottom: 40px;
-}
+  	margin-bottom: 40px;
+	}
 
 .sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 10%;
-  right: 0;
-  background-color: #A3C2BD;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 10%;
+	right: 0;
+	background-color: #A3C2BD;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+	}
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: black;
-  display: block;
-  transition: 0.3s;
-}
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+	display: block;
+	transition: 0.3s;
+	}
 
 .sidenav a:hover {
-  color: #f1f1f1;
-}
+	color: #f1f1f1;
+	}
 
 .sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  left: 25px;
-  font-size: 36px;
-  margin-right: 50px;
-}
+	position: absolute;
+	top: 0;
+	left: 25px;
+	font-size: 36px;
+	margin-right: 50px;
+	}
 
 #main {
     position: fixed;
@@ -208,54 +206,175 @@ body{
 }
 
 .post p{ 
-  margin-left:20%; 
-  margin-right: 20%;
-  background-color: #A3C2BD;
-}
+	margin-left:20%; 
+	margin-right: 20%;
+	background-color: #A3C2BD;
+	}
 
-section{
-  min-width: fit-content;
-}
+.mainsection {
+	min-width: fit-content;
+	}
 
 .klasser{
 	font-size: 24px;
 	color: #4d8f85;
-
 }
 
 .post{
- /* border: solid black 1px;*/
-  position: relative;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  display: block;
-  text-align: center;
-
-  
-  
-}
+	/* border: solid black 1px;*/
+	position: relative;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	display: block;
+	text-align: center;
+	}
 
 .resize{
-  object-fit: contain;
-  width: 600px;
-  height: 400px;
-}
+	object-fit: contain;
+	width: 600px;
+	height: 400px;
+	}
 
 .resize2{
-  object-fit: contain;
-  width: 600px;
-  height: 300px;
+	object-fit: contain;
+	width: 600px;
+	height: 300px;
+	}
+
+
+/*Calender*/
+
+.liPoint{
+	cursor: pointer;
+  }
+  
+  img.avatar {
+	width: 20%;
+	border-radius: 50%;
+	margin: auto;
+	}
+  
+  .inlogning {
+	padding: 30px;
+	width: 100%;
+  }
+  
+  .calSchoolBook input[type=text], .calSchoolBook input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+  }
+  
+  
+  .calSchoolBook button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+  }
+  
+  .calSchoolBook button: hover {
+	opacity: 0.8;
+  }
+  
+  .cancelbtn {
+	width: 20%;
+	padding: 10px 18px;
+	background-color: #ff4d4d;
+	margin: 8px 0;
+  }
+  
+  
+  .calSchoolBook a:link {
+	text-decoration: none;
+	color: #4d8f85;
+  }
+  
+  .calSchoolBook article, aside, figcaption, figure, footer, hgroup, main, section {
+    display: block;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+ 
+.month1 {
+  padding: 70px 25px;
+  width: 100%;
+  background: #4D8F85;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.month1 ul {
+  margin: 0px;
+  padding: 0;
+}
+
+.month1 ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  list-style:  none;
+}
+
+.month1 .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month1 .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+  align-items: center;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #A3C2BD;
+  color: white !important
 }
 
 
-
-
-
+span.psw {
+  float: right;
+  padding-top: 16px;
+}  
 
 
 
